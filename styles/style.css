@@ -108,6 +108,10 @@ main{
     margin: 0 auto;
 }
 
+main section{
+    margin-top: 130px;
+}
+
 .about-info-container{
     display: flex;
     justify-content: space-around;
@@ -121,4 +125,30 @@ main{
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px ;
+}
+
+#what-i-do-desc{
+    padding: 30px 150px;
+}
+
+.skill-conatainer{
+    display: flex; 
+    gap:24px;
+}
+.skill{
+    padding: 33px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 80px 96px 50px 80px rgba(0, 0, 0, 0.06);
+}
+.skill-desc{
+    color: #757575;
+}
+
+/* resume section */
+.resume-column-title{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
 }
